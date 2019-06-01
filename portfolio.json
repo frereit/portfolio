@@ -33,12 +33,6 @@
     "source_url": "https://github.com/frereit/constantine-bot/"
   },
   {
-    "title": "Testprojekt",
-    "description": "Hallo dies ist ein Test Projekt.",
-    "source_url": "https://github.com/frereit/FizzBuzz",
-    "demo_url": "https://www.example.com"
-  },
-  {
     "title": "..and (probably) more.",
     "description": "There are some projects that I did not mention here which I contributed to, so if you want to learn more feel free to <a href='https://www.github.com/frereit/'>checkout my GitHub Profile.</a>"
   }
