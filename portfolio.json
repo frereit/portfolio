@@ -17,7 +17,7 @@
   },
   {
     "title": "This portfolio",
-    "description": "Using Python Flask I made a simple websites which reads in portfolio entries from a JSON File and displays them.",
+    "description": "Using Python Flask I made a simple website which reads in portfolio entries from a JSON File and displays them.",
     "source_url": "https://github.com/frereit/portfolio",
     "demo_url": "http://www.frereit.de"
   },
