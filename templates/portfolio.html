@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frederik Reiter</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/portfolio.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:100,100i,400,400i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="big-name">
+    <h1>Frederik Reiter</h1>
+    <div class="tooltip">
+        <h3>{{ age.days }} days old student</h3>
+        <span class="tooltiptext">That's about {{ age.years }} years!</span>
+    </div>
+</div>
+<div class="projects">
+    <h2>My Projects</h2>
+    {% for entry in entries %}
+        <div class="project">
+            <h3>{{ entry.title }}</h3>
+            {% autoescape false %}
+            <p>{{ entry.description }}</p>
+            {% endautoescape %}
+            {% if entry.source_url %}
+                <p>The source code is available <a href="{{ entry.git_url }}">here.</a></p>
+            {% endif %}
+            {% if entry.demo_url %}
+                <p>A demo is available <a href="{{ entry.demo_url }}">here.</a></p>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+<script>
+    var project_divs = document.getElementsByClassName('project');
+
+    var divHeights = Array.prototype.map.call(project_divs, function(el)  {
+      return el.clientHeight;
+    });
+
+    var maxHeight = Math.max.apply(null, divHeights);
+
+    Array.prototype.forEach.call(project_divs, function(el) {
+      el.style.height = maxHeight + "px";
+    });
+</script>
+</body>
+</html>

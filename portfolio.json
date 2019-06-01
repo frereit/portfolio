@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Handwriting Recognition with Tensorflow",
+    "description": "Using the NIST Dataset 19 and Google's Tensorflow Library for Python, I made a very primitive convolutional neural network to recognize single handwritten letters.",
+    "source_url": "https://github.com/frereit/TensorflowHandwritingRecognition"
+  },
+  {
+    "title": "Feed Forward Neural Network in C#",
+    "description": "Using C#/.NET I implemented a primitive feed forward neural network with a basic backpropagation algorithm. It works only very slowly and the optimizer is very bad to say the least.",
+    "source_url": "https://github.com/frereit/FeedForwardMachineLearning"
+  },
+  {
+    "title": "Common Misconceptions",
+    "description": "Using Python Flask and the article 'List of common misconceptions' on Wikipedia, I made a simple website which outputs a random bullet point from that article.",
+    "source_url": "https://github.com/frereit/commonmisconceptions",
+    "demo_url": "http://misconceptions.frereit.de"
+  },
+  {
+    "title": "This portfolio",
+    "description": "Using Python Flask I made a simple websites which reads in portfolio entries from a JSON File and displays them.",
+    "source_url": "https://github.com/frereit/portfolio",
+    "demo_url": "http://www.frereit.de"
+  },
+  {
+    "title": "VUBA",
+    "description": "During Jugend Hackt 2019 [<a href='https://jugendhackt.org/events/koeln/'>German Link</a>] in Cologne, I majorly contributed to the frontend and partially contributed to the backend of VUBA, a webapp which combines many different bike sharing providers into one progressive web app.",
+    "source_url": "https://github.com/jugendhackt/VUBA",
+    "demo_url": "https://vuba.felix-strick.de"
+  },
+  {
+    "title": "Constantine Discord Bot",
+    "description": "Using Python and the discord.py API Wrapper for Discord, I made a multifunctional bot for the messaging platform Discord. It supports news articles, stocks, wikipedia and more.",
+    "source_url": "https://github.com/frereit/constantine-bot/"
+  },
+  {
+    "title": "..and (probably) more.",
+    "description": "There are some projects that I did not mention here which I contributed to, so if you want to learn more feel free to <a href='https://www.github.com/frereit/'>checkout my GitHub Profile.</a>"
+  }
+]
