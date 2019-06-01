@@ -11,7 +11,7 @@ all_entries = []
 @app.before_first_request
 def load_portfolio_entries():
     global all_entries
-    with open("portfolio.json") as f:
+    with app.open_resource("portfolio.json") as f:
         all_entries = json.loads(f.read())
 
 
